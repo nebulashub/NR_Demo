@@ -349,6 +349,7 @@ export default {
   watch: {
     '$route': function (to, from) {
       this.loadData()
+      this.updateAddress()
     }
   },
   mounted: function () {
